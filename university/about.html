@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,
+wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+
+<body>
+    <section class="sub-header">
+         <nav>
+            <a href="welc.html"><img src="/eduford_img/logo.png"></a>
+            <div class="nav-links" id = "navlinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="welc.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                     <li><a href="course.html">course</a></li>
+                     <li><a href="blog.html">blog</a></li>
+                     <li><a href="contact.html">contact</a></li>
+                     <li><a href="loginpage.html">loginpage</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+
+
+
+    </section>
+    
+    
+    <!-----about us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the worlds Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut numquam delectus atque laborum ipsum, 
+                    mollitia earum praesentium architecto. Facilis ex reprehenderit omnis voluptas totam 
+                    fugit odio esse eligendi, vitae sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quos eum voluptatibus ipsum ducimus. Labore, recusandae tempore.
+                     Ratione dicta doloribus numquam omnis! Est temporibus quibusdam aperiam facilis praesentium a id dolorum.</p>
+                     <a href="" class="hero-btn red-btn">Explore NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="/eduford_img/about.jpg">
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+<!------footer -->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur assumenda illum quaerat?<br> Enim culpa 
+                perspiciatis dolorum quisquam aut ex quibusdam sequi, accusamus<br>asperiores deserunt maxime sunt unde eum. Ad, amet.</p>
+              <div class="icons"> 
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-linkedin" ></i>
+
+                     </div>
+                     <p>
+                        made in india <i class="fa fa-star" ></i> for star World
+                     </p>
+
+        </section>
+
+
+  
+
+
+
+
+
+
+
+
+
+    <!-------javascript for css-->
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu(){
+            navlinks.style.right= "0";
+
+        }
+        function hidemenu(){
+            navlinks.style.right= "-200px";
+
+        }
+    </script>
+</body>
+</html>
